@@ -1,0 +1,35 @@
+﻿@model GymScores.Domain.Entities.Gymnast
+
+@{
+    ViewBag.Title = "Edit " + @Model.FirstName;
+}
+
+<h2>Edit @Model.FirstName</h2>
+
+@using (Html.BeginForm())
+{ 
+    @Html.ValidationSummary()
+    
+    <label for="first">First Name</label>
+    @Html.TextBoxFor(x => x.FirstName, new { @maxlength = "15" })<br />
+    
+    <label for="last">Last Name</label>
+    @Html.TextBoxFor(x => x.LastName, new { @maxlength = "20" })<br />
+    
+    <label for="age">Age</label>
+    @Html.TextBoxFor(x => x.Age, new { @maxlength = "2" })<br />
+    
+    <label for="level">Level</label>
+    @Html.TextBoxFor(x => x.Level, new { @maxlength = "10" })<br />
+    
+    <div id="btn-container">    
+        @Html.ActionLink("Cancel", "List", "Gymnast", new { @class = "cancel-link" })
+        <input type="submit" value="Save" class="save-btn" />
+    </div>
+}
+
+@using (Html.BeginForm("Delete", "Gymnast"))
+{ 
+    @Html.Hidden("gymnastID", Model.GymnastID)
+    <input type="submit" value="Delete" class="delete-btn" onclick="return confirm('Are you sure you want to delete this gymnast?');" />
+}

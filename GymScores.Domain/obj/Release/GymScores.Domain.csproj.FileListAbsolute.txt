@@ -1,0 +1,18 @@
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\GymScores.Domain.dll.config
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\GymScores.Domain.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\GymScores.Domain.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\EntityFramework.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\EntityFramework.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Release\GymScores.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Release\GymScores.Domain.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Release\GymScores.Domain.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Release\GymScores.Domain.dll.config
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Release\GymScores.Domain.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Release\GymScores.Domain.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Release\EntityFramework.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Release\GymScores.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Release\GymScores.Domain.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Release\GymScores.Domain.pdb

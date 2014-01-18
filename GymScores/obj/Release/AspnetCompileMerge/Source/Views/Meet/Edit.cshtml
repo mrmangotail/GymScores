@@ -1,0 +1,38 @@
+﻿@model GymScores.Domain.Entities.Meet
+
+@{
+    ViewBag.Title = "Edit " + @Model.Name;
+}
+
+<h2>Edit @Model.Name</h2>
+
+@using (Html.BeginForm())
+{ 
+     @Html.ValidationSummary()
+    
+    <label for="date">Date</label>
+    @Html.TextBoxFor(x => x.MeetDate, "{0:MM/dd/yyyy}", new { @maxlength = "10" })<br />
+    
+    <label for="name">Name</label>
+    @Html.TextBoxFor(x => x.Name, new { @maxlength = "50" })<br />
+    
+    <label for="location">Location</label>
+    @Html.TextBoxFor(x => x.Location, new { @maxlength = "50" })<br />
+        
+    <div id="btn-container">
+        @Html.ActionLink("Cancel", "Details", "Meet", new { meetID = Model.MeetID }, new { @class = "cancel-link" })
+        <input type="submit" value="Save" class="save-btn" />
+    </div>
+}
+
+@using (Html.BeginForm("Delete", "Meet"))
+{ 
+    @Html.Hidden("meetID", Model.MeetID)
+    <input type="submit" value="Delete" class="delete-btn" onclick="return confirm('Are you sure you want to delete this meet?');" />
+}
+
+<script>
+    $(function () {
+        $("#MeetDate").datepicker();
+    });
+</script>          

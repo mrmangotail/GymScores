@@ -1,0 +1,80 @@
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.Tests.dll.config
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.Tests.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.Tests.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.Domain.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Moq.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Ninject.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\WebGrease.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.Domain.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\GymScores.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Moq.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Ninject.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Ninject.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\obj\Debug\GymScores.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\obj\Debug\GymScores.Tests.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Tests\obj\Debug\GymScores.Tests.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.Tests.dll.config
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.Tests.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.Tests.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.Domain.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\WebGrease.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.Domain.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\GymScores.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Moq.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Ninject.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Ninject.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\obj\Debug\GymScores.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\obj\Debug\GymScores.Tests.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Tests\obj\Debug\GymScores.Tests.pdb

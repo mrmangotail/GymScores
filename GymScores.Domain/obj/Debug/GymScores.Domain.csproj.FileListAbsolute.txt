@@ -1,0 +1,18 @@
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\GymScores.Domain.dll.config
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\GymScores.Domain.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\GymScores.Domain.pdb
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Debug\GymScores.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Debug\GymScores.Domain.dll
+C:\Users\Rick\documents\visual studio 2012\Projects\GymScores.Domain\obj\Debug\GymScores.Domain.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Debug\GymScores.Domain.dll.config
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Debug\GymScores.Domain.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Debug\GymScores.Domain.pdb
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Debug\GymScores.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Debug\GymScores.Domain.dll
+C:\Users\Rick\Documents\Visual Studio 2012\Projects\GymScores Site\GymScores.Domain\obj\Debug\GymScores.Domain.pdb

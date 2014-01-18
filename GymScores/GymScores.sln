@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymScores", "GymScores.csproj", "{2D12A901-FF2A-4A13-B099-8DDC13C06A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymScores.Domain", "..\GymScores.Domain\GymScores.Domain.csproj", "{9EFA9111-0491-4D7F-850B-AA7487934E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymScores.Tests", "..\GymScores.Tests\GymScores.Tests.csproj", "{9E8137B6-F536-4AE5-ABED-9F1B1E394B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D12A901-FF2A-4A13-B099-8DDC13C06A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D12A901-FF2A-4A13-B099-8DDC13C06A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D12A901-FF2A-4A13-B099-8DDC13C06A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D12A901-FF2A-4A13-B099-8DDC13C06A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFA9111-0491-4D7F-850B-AA7487934E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFA9111-0491-4D7F-850B-AA7487934E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFA9111-0491-4D7F-850B-AA7487934E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFA9111-0491-4D7F-850B-AA7487934E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8137B6-F536-4AE5-ABED-9F1B1E394B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8137B6-F536-4AE5-ABED-9F1B1E394B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8137B6-F536-4AE5-ABED-9F1B1E394B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8137B6-F536-4AE5-ABED-9F1B1E394B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

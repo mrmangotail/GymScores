@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GymScores | @ViewBag.Title | MangoTail Software</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Styles.Render("~/Content/themes/base/css")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <div id="wrapper">
+        <div id="content">
+            <div id="top-bar">
+                <h1>@Html.ActionLink("GymScores", "List", "Meet")</h1>
+            </div>
+        
+            <div id="nav">
+                <ul>
+                    <li>@Html.ActionLink("Meets", "List", "Meet")</li>
+                    <li>@Html.ActionLink("Add Meet", "Add", "Meet")</li>
+                    <li>@Html.ActionLink("Gymnasts", "List", "Gymnast")</li>
+                    <li>@Html.ActionLink("Add Gymnast", "Add", "Gymnast")</li>
+                    <li>@Html.ActionLink("Logout", "Logout", "Account")</li>
+                </ul>
+            </div>
+            
+            <div id="content-column">
+               
+                @if (TempData["message"] != null)
+                { 
+                
+                    <p class="validation-summary-errors">@TempData["message"]</p>
+                }
+
+                @RenderBody()
+            
+            </div>
+            <div class="clear-it"></div>
+        </div>
+    </div>
+    
+    <script>
+        $(function () {
+            $(".submit-btn, .save-btn").button();
+        });
+    </script>
+
+</body>
+</html>

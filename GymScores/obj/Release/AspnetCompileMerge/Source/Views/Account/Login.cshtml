@@ -1,0 +1,25 @@
+﻿@model GymScores.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_CleanLayout.cshtml";
+}
+
+<div id="login-container">
+    <h2>Login</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+    
+        <label for="username">Username</label>
+        @Html.TextBoxFor(x => Model.UserName, new { @maxlength = "15" })<br />
+    
+        <label for="password">Password</label>
+        @Html.TextBoxFor(x => Model.Password, new { @maxlength = "20", @type = "password" })
+
+        <div id="btn-container">
+            <input type="submit" value="Login" class="login-btn" />
+        </div> 
+    }
+</div>

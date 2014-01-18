@@ -1,0 +1,65 @@
+﻿@model GymScores.ViewModels.ScoreViewModel
+
+@{
+    ViewBag.Title = "Add Score";
+}
+
+<h2>Add Score</h2>
+
+@using (Html.BeginForm("Save", "Score"))
+{ 
+    @Html.ValidationSummary()
+    
+    <p>
+        <label>Gymnast</label>
+        @Html.DropDownListFor(x => x.Score.GymnastID, Model.Gymnasts, "Select", new { @tabindex = "1" })
+    </p>
+    
+    <p>
+        <label>Bars</label>
+        @Html.DropDownListFor(x => x.Score.BarsOnesTens, Model.BarsOnesTensList, new { @tabindex = "2" })
+        <span>.</span>
+        @Html.DropDownListFor(x => x.Score.BarsTenths, Model.BarsTenthsList, new { @tabindex = "3" })
+        @Html.DropDownListFor(x => x.Score.BarsHundredths, Model.BarsHundredthsList, new { @tabindex = "4" })
+        @Html.DropDownListFor(x => x.Score.BarsThousandths, Model.BarsThousandthsList, new { @tabindex = "5" })
+    </p>
+    
+    <p>
+        <label>Beam</label>
+        @Html.DropDownListFor(x => x.Score.BeamOnesTens, Model.BeamOnesTensList, new { @tabindex = "6" })
+        <span>.</span>
+        @Html.DropDownListFor(x => x.Score.BeamTenths, Model.BeamTenthsList, new { @tabindex = "7" })
+        @Html.DropDownListFor(x => x.Score.BeamHundredths, Model.BeamHundredthsList, new { @tabindex = "8" })
+        @Html.DropDownListFor(x => x.Score.BeamThousandths, Model.BeamThousandthsList, new { @tabindex = "9" })
+    </p>
+    
+    <p>
+        <label>Floor</label>
+        @Html.DropDownListFor(x => x.Score.FloorOnesTens, Model.FloorOnesTensList, new { @tabindex = "10" })
+        <span>.</span>
+        @Html.DropDownListFor(x => x.Score.FloorTenths, Model.FloorTenthsList, new { @tabindex = "11" })
+        @Html.DropDownListFor(x => x.Score.FloorHundredths, Model.FloorHundredthsList, new { @tabindex = "12" })
+        @Html.DropDownListFor(x => x.Score.FloorThousandths, Model.FloorThousandthsList, new { @tabindex = "13" })
+    </p>
+    
+    <p>
+        <label>Vault</label>
+        @Html.DropDownListFor(x => x.Score.VaultOnesTens, Model.VaultOnesTensList, new { @tabindex = "14" })
+        <span>.</span>
+        @Html.DropDownListFor(x => x.Score.VaultTenths, Model.VaultTenthsList, new { @tabindex = "15" })
+        @Html.DropDownListFor(x => x.Score.VaultHundredths, Model.VaultHundredthsList, new { @tabindex = "16" })
+        @Html.DropDownListFor(x => x.Score.VaultThousandths, Model.VaultThousandthsList, new { @tabindex = "17" })
+    </p>
+    
+    <p>
+        <label>Compulsory</label>
+        @Html.CheckBoxFor(x => x.Score.IsCompulsory, new { @tabindex = "18" })
+    </p>
+    
+    @Html.HiddenFor(x => x.Score.MeetID, "meetID")
+    
+    <div id="btn-container">
+        @Html.ActionLink("Cancel", "Details", "Meet", new { meetID = Model.Score.MeetID }, new { @class = "cancel-link", @tabindex = "20" })
+        <input type="submit" value="Save" class="save-btn" tabindex="19" />
+    </div>
+}

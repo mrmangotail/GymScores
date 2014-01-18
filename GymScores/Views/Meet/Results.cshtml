@@ -1,0 +1,43 @@
+﻿@model GymScores.ViewModels.MeetScoresViewModel
+
+@{
+    ViewBag.Title = "Meet Results";
+    Layout = "~/Views/Shared/_PrintLayout.cshtml";
+}
+
+<div id="results-view">
+    <div id="results-details">
+        <h2>Meet Results</h2>
+        <p>Date: @Model.Meet.MeetDate.ToShortDateString()</p>
+        <p>Name: @Model.Meet.Name</p>
+        <p>Location: @Model.Meet.Location</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Gymnast</th>
+                <th>Bars</th>
+                <th>Beam</th>
+                <th>Floor</th>
+                <th>Vault</th>
+                <th>AA</th>
+                <th>Compulsory</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model.MeetScores)
+            {
+                <tr>
+                    <td>@s.GymnastName</td>
+                    <td>@String.Concat(@s.BarsOnesTens, ".", @s.BarsTenths, @s.BarsHundredths, @s.BarsThousandths)</td>
+                    <td>@String.Concat(@s.BeamOnesTens, ".", @s.BeamTenths, @s.BeamHundredths, @s.BeamThousandths)</td>
+                    <td>@String.Concat(@s.FloorOnesTens, ".", @s.FloorTenths, @s.FloorHundredths, @s.FloorThousandths)</td>
+                    <td>@String.Concat(@s.VaultOnesTens, ".", @s.VaultTenths, @s.VaultHundredths, @s.VaultThousandths)</td>
+                    <td>@s.AllAround.ToString()</td>
+                    <td>@Html.Label(s.IsCompulsory.ToString() == "True" ? "Yes": "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+﻿@model GymScores.Domain.Entities.Gymnast
+
+@{
+    ViewBag.Title = "Gymnast Details";
+}
+
+<h2>Gymnast Details</h2>
+
+<label for="first">First Name</label>
+@Model.FirstName<br />
+
+<label for="last">Last Name</label>
+@Model.LastName<br />
+
+<label for="age">Age</label>
+@Model.Age<br />
+
+<label for="level">Level</label>
+@Model.Level<br />
+
+<div id="details" class="back-link">@Html.ActionLink("Back", "List", "Gymnast")</div>

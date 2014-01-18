@@ -1,0 +1,30 @@
+﻿@model IEnumerable<GymScores.Domain.Entities.Gymnast>
+
+@{
+    ViewBag.Title = "Gymnasts";
+}
+
+<h2>Gymnasts</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Gymnast</th>
+            <th>Age</th>
+            <th>Level</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var g in Model)
+        { 
+            <tr>
+                <td>@Html.ActionLink(g.FirstName + " " + g.LastName, "Details", new { gymnastID = g.GymnastID })</td>
+                <td>@g.Age.ToString()</td>
+                <td>@g.Level</td>
+                <td>@Html.ActionLink("Edit", "Edit", new { gymnastID = g.GymnastID })</td>
+            </tr>
+        }
+    <tbody>
+</table>
