@@ -1,2 +1,7 @@
-bin/
-obj/
+GymScores/bin/
+GymScores.Domain/bin/
+GymScores.Tests/bin/
+
+GymScores/obj/
+GymScores.Domain/obj/
+GymScores.Tests/obj/

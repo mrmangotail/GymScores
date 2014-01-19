@@ -58,8 +58,8 @@ namespace GymScores.Domain.Concrete
 
             if (scoresForMeet.Count > 0)
                 return true;
-            else
-                return false;
+            
+            return false;
         }
 
         public List<MeetScore> MeetScores(int meetID)
