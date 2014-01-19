@@ -57,8 +57,8 @@ namespace GymScores.Domain.Concrete
 
             if (scoresForGymnast.Count > 0)
                 return true;
-            else
-                return false;
+
+            return false;
         }
     }
 }

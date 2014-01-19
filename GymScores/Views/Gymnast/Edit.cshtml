@@ -11,20 +11,20 @@
     @Html.ValidationSummary()
     
     <label for="first">First Name</label>
-    @Html.TextBoxFor(x => x.FirstName, new { @maxlength = "15" })<br />
+    @Html.TextBoxFor(x => x.FirstName, new { @maxlength = "15", @tabindex = "1" })<br />
     
     <label for="last">Last Name</label>
-    @Html.TextBoxFor(x => x.LastName, new { @maxlength = "20" })<br />
+    @Html.TextBoxFor(x => x.LastName, new { @maxlength = "20", @tabindex = "2" })<br />
     
     <label for="age">Age</label>
-    @Html.TextBoxFor(x => x.Age, new { @maxlength = "2" })<br />
+    @Html.TextBoxFor(x => x.Age, new { @maxlength = "2", @tabindex = "3" })<br />
     
     <label for="level">Level</label>
-    @Html.TextBoxFor(x => x.Level, new { @maxlength = "10" })<br />
+    @Html.TextBoxFor(x => x.Level, new { @maxlength = "10", @tabindex = "4" })<br />
     
     <div id="btn-container">    
-        @Html.ActionLink("Cancel", "List", "Gymnast", new { @class = "cancel-link" })
-        <input type="submit" value="Save" class="save-btn" />
+        @Html.ActionLink("Cancel", "List", "Gymnast", new { @class = "cancel-link", @tabindex = "6" })
+        <input type="submit" value="Save" class="save-btn" tabindex="5" />
     </div>
 }
 
