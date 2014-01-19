@@ -11,17 +11,17 @@
      @Html.ValidationSummary()
     
     <label for="date">Date</label>
-    @Html.TextBoxFor(x => x.MeetDate, "{0:MM/dd/yyyy}", new { @maxlength = "10" })<br />
+    @Html.TextBoxFor(x => x.MeetDate, "{0:MM/dd/yyyy}", new { @maxlength = "10", @tabindex = "1" })<br />
     
     <label for="name">Name</label>
-    @Html.TextBoxFor(x => x.Name, new { @maxlength = "50" })<br />
+    @Html.TextBoxFor(x => x.Name, new { @maxlength = "50", @tabindex = "2" })<br />
     
     <label for="location">Location</label>
-    @Html.TextBoxFor(x => x.Location, new { @maxlength = "50" })<br />
+    @Html.TextBoxFor(x => x.Location, new { @maxlength = "50", @tabindex = "3" })<br />
         
     <div id="btn-container">
-        @Html.ActionLink("Cancel", "Details", "Meet", new { meetID = Model.MeetID }, new { @class = "cancel-link" })
-        <input type="submit" value="Save" class="save-btn" />
+        @Html.ActionLink("Cancel", "Details", "Meet", new { meetID = Model.MeetID }, new { @class = "cancel-link", @tabindex = "5" })
+        <input type="submit" value="Save" class="save-btn" tabindex="4" />
     </div>
 }
 
