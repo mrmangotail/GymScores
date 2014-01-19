@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GymScores.Domain.Abstract;
 using GymScores.Domain.Entities;
@@ -17,7 +16,7 @@ namespace GymScores.Tests
         public void MeetList_Contains_AllMeets()
         {
             // create mock repository
-            Mock<IMeetRepository> mock = new Mock<IMeetRepository>();
+            var mock = new Mock<IMeetRepository>();
 
             mock.Setup(m => m.Meets).Returns(new Meet[]
             {
@@ -26,10 +25,10 @@ namespace GymScores.Tests
             }.AsQueryable());
 
             // create a controller
-            MeetController target = new MeetController(mock.Object);
+            var target = new MeetController(mock.Object);
 
             // action
-            Meet[] result = ((IEnumerable<Meet>)target.List().ViewData.Model).ToArray();
+            var result = ((IEnumerable<Meet>)target.List().ViewData.Model).ToArray();
 
             Assert.AreEqual(result.Length, 2);
             Assert.AreEqual("Colorado", result[0].Location);
