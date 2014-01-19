@@ -96,8 +96,8 @@ namespace GymScores.Domain.Concrete
 
             if (allScores.Count <= 0)
                 return false;
-            else
-                return true;
+            
+            return true;
         }
 
         public Score DeleteScore(int scoreID)
