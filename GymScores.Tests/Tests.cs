@@ -31,7 +31,6 @@ namespace GymScores.Tests
             // action
             Meet[] result = ((IEnumerable<Meet>)target.List().ViewData.Model).ToArray();
 
-            // assert
             Assert.AreEqual(result.Length, 2);
             Assert.AreEqual("Colorado", result[0].Location);
             Assert.AreEqual("California", result[1].Location);
