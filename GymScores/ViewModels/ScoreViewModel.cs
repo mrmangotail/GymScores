@@ -108,7 +108,7 @@ namespace GymScores.ViewModels
                                       Text = g.FirstName + " " + g.LastName
                                   };
 
-                return gymnastList; 
+                return gymnastList.OrderBy(g => g.Text); 
             }
         }
 

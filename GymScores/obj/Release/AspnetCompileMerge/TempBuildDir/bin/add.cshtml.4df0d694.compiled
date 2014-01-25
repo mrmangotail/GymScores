@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<preserve resultType="2" virtualPath="/Views/Gymnast/Add.cshtml" hash="7a9782b5" filehash="f5f72602a7e" flags="110000" assembly="App_Web_roi1rpsv" type="ASP._Page_Views_Gymnast_Add_cshtml">
-    <filedeps>
-        <filedep name="/Views/Gymnast/Add.cshtml" />
-    </filedeps>
-</preserve>

@@ -11,8 +11,8 @@
     @Html.ValidationSummary()
     
     <p>
-        <label>Gymnast</label>
-        @Html.DropDownListFor(x => x.Score.GymnastID, Model.Gymnasts, "Select", new { @tabindex = "1" })
+        <label>&nbsp;</label>
+        @Html.DropDownListFor(x => x.Score.GymnastID, Model.Gymnasts, "Gymnast", new { @tabindex = "1" })
     </p>
     
     <p>
@@ -52,8 +52,8 @@
     </p>
     
     <p>
-        <label>Compulsory</label>
-        @Html.CheckBoxFor(x => x.Score.IsCompulsory, new { @tabindex = "18" })
+        <label>&nbsp;</label>
+        @Html.CheckBoxFor(x => x.Score.IsCompulsory, new { @tabindex = "18" }) Compulsory
     </p>
     
     @Html.HiddenFor(x => x.Score.MeetID, "meetID")
