@@ -17,7 +17,7 @@
     @Html.Hidden("meetID", Model.Meet.MeetID)
     
     <div id="btns">
-        <input type="submit" value="Add Score" class="submit-btn" />
+        <input type="submit" value="Add Gymnast to Meet" class="add-gymnast-btn" />
     </div>
 }
 
@@ -38,10 +38,10 @@
         {
             <tr>
                 <td>@s.GymnastName</td>
-                <td>@Html.ActionLink(s.BarsOnesTens.ToString() + "." + s.BarsTenths.ToString() + s.BarsHundredths.ToString() + s.BarsThousandths.ToString(), "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
-                <td>@Html.ActionLink(s.BeamOnesTens.ToString() + "." + s.BeamTenths.ToString() + s.BeamHundredths.ToString() + s.BeamThousandths.ToString(), "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
-                <td>@Html.ActionLink(s.FloorOnesTens.ToString() + "." + s.FloorTenths.ToString() + s.FloorHundredths.ToString() + s.FloorThousandths.ToString(), "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
-                <td>@Html.ActionLink(s.VaultOnesTens.ToString() + "." + s.VaultTenths.ToString() + s.VaultHundredths.ToString() + s.VaultThousandths.ToString(), "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
+                <td>@Html.ActionLink(s.BarsOnesTens + "." + s.BarsTenths + s.BarsHundredths + s.BarsThousandths, "Edit", "Score", new { scoreID = s.ScoreID }, new { @class="plain-link" })</td>
+                <td>@Html.ActionLink(s.BeamOnesTens + "." + s.BeamTenths + s.BeamHundredths + s.BeamThousandths, "Edit", "Score", new { scoreID = s.ScoreID }, new { @class="plain-link" })</td>
+                <td>@Html.ActionLink(s.FloorOnesTens + "." + s.FloorTenths + s.FloorHundredths + s.FloorThousandths, "Edit", "Score", new { scoreID = s.ScoreID }, new { @class="plain-link" })</td>
+                <td>@Html.ActionLink(s.VaultOnesTens + "." + s.VaultTenths + s.VaultHundredths + s.VaultThousandths, "Edit", "Score", new { scoreID = s.ScoreID }, new { @class="plain-link" })</td>
                 <td>@Html.ActionLink(s.AllAround.ToString(), "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
                 <td>@Html.ActionLink(s.IsCompulsory.ToString() == "True" ? "Yes": "No", "Edit", "Score", new { scoreID = s.ScoreID, meetID = s.MeetID }, new { @class="plain-link" })</td>
             </tr>

@@ -10,7 +10,12 @@ namespace GymScores.Domain.Concrete
 
         public IQueryable<Gymnast> Gymnasts
         {
-            get { return context.Gymnasts; }
+            get { return context.Gymnasts.OrderBy(g => g.FirstName); }
+        }
+
+        public Gymnast GetGymnast(int gymnastID)
+        {
+            return context.Gymnasts.Find(gymnastID);
         }
 
         public void SaveGymnast(Gymnast gymnast)

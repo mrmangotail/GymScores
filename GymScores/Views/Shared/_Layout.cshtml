@@ -9,7 +9,9 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryui")
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/selectBoxIt.min.js")
     @Styles.Render("~/Content/themes/base/css")
+    @Styles.Render("~/Content/SelectBoxIt.css")
     @RenderSection("scripts", required: false)
 </head>
 <body>
@@ -46,7 +48,16 @@
     
     <script>
         $(function () {
-            $(".submit-btn, .save-btn").button();
+            $(".submit-btn, .save-btn, .add-gymnast-btn").button();
+        });
+
+
+        // Calls the selectBoxIt method on your HTML select box
+        $("select").selectBoxIt({
+
+            //Aggressive Change Mode will select a drop down option (and trigger the change event on the original select box) when a user navigates to an option using the up and down arrow keys via the keyboard, or searches for an option using the keyboard.
+            aggressiveChange: true
+
         });
     </script>
 

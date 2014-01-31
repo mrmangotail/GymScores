@@ -127,7 +127,7 @@ li a:hover {
 
 thead tr {
   background: #0054A3;
-    color: #eee;
+  color: #eee;
 }
 
 tbody tr:nth-child(odd) {
@@ -147,7 +147,7 @@ table {
 }
 
 td, th {
-    padding:5px;
+    padding:10px;
 }
 
 #results-details p,
@@ -176,6 +176,10 @@ input[type="checkbox"] {
 
 .submit-btn {
     width: 125px;
+}
+
+.add-gymnast-btn {
+    width: 200px;    
 }
 
 .login-btn,

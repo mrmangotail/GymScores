@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using GymScores.Domain.Abstract;
+using GymScores.Domain.Concrete;
 using GymScores.Domain.Entities;
 using GymScores.ViewModels;
 
@@ -15,6 +16,7 @@ namespace GymScores.Controllers
         public ScoreController(IScoreRepository scoreRepository)
         {
             repository = scoreRepository;
+
         }
 
         [HttpPost]
@@ -62,8 +64,15 @@ namespace GymScores.Controllers
         public ViewResult Edit(int scoreID)
         {
             var viewModel = new ScoreViewModel();
-            viewModel.Score = repository.Scores.FirstOrDefault(m => m.ScoreID == scoreID);
-            
+            var score = repository.Scores.FirstOrDefault(m => m.ScoreID == scoreID);
+            viewModel.Score = score;
+
+            if (score != null)
+            {
+                var gymnast = new EFGymnastRepository().GetGymnast(score.GymnastID);
+                viewModel.GymnastName = gymnast.FirstName + " " + gymnast.LastName;
+            }
+
             return View(viewModel);
         }
 

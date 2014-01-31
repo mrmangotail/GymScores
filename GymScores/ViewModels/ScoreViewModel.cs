@@ -1,5 +1,4 @@
-﻿using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Linq;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using GymScores.Domain.Entities;
@@ -11,6 +10,7 @@ namespace GymScores.ViewModels
     {
         public Score Score { get; set; }
         public int GymnastID { get; set; }
+        public string GymnastName { get; set; }
         
         // bars
         public IEnumerable<SelectListItem> BarsOnesTensList
@@ -110,6 +110,12 @@ namespace GymScores.ViewModels
 
                 return gymnastList.OrderBy(g => g.Text); 
             }
+        }
+
+        private Gymnast GetGymnast()
+        {
+            var gymnast = new EFGymnastRepository().GetGymnast(1);
+            return gymnast;
         }
 
         private IEnumerable<SelectListItem> CreateNumericList(int endValue)
