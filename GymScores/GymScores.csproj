@@ -213,6 +213,7 @@
     <Content Include="Content\Site.css" />
     <None Include="Properties\PublishProfiles\mangotail - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mangotail - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Softsys Deploy.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
